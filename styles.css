@@ -183,28 +183,28 @@ color: #FFFFFF;
   margin-top: 0;
 }
 
-#AboutUs h2, #AboutUs p{ color: #fff;}
+#aboutus h2, #aboutus p{ color: #fff;}
 
-#Design Process {
+#designprocess {
   padding: 100px 0;
   background: #000000;
 }
 
-#AboutUs {
+#aboutus {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
   background: #C3360B;
 }
  
-#AboutUs .team-member {
+#aboutus .team-member {
   padding: 13px; 
   border: 1px solid #eeeeee; 
 }
-#AboutUs .team-member .team-img {
+#aboutus .team-member .team-img {
   margin: 0;
 }
-#AboutUs .team-member .team-info {
+#aboutus .team-member .team-info {
   padding-bottom: 10px; 
 } 
 
