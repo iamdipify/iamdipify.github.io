@@ -244,3 +244,82 @@ padding: 3px 0;
 width: 31px;
 text-align: center;
 }
+
+#portfolio {
+  padding: 100px 0;
+  background: #000000;
+}
+#portfolio .portfolio-filter {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  display: inline-block;
+}
+#portfolio .portfolio-filter > li {
+  float: left;
+  display: block;
+}
+#portfolio .portfolio-filter > li a {
+  display: block;
+  padding: 7px 15px;
+  margin:0px 2px;
+  color: #C3360B;
+  position: relative;
+  border: 1px solid #C3360B;
+}
+#portfolio .portfolio-filter > li a:hover,
+#portfolio .portfolio-filter > li a.active {
+  background: #C3360B;
+  color: #fff; 
+} 
+#portfolio .portfolio-items {
+  margin: -15px;
+}
+#portfolio .portfolio-item {
+  width: 24.9%;
+  float: left;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#portfolio .portfolio-item .portfolio-item-inner {
+  position: relative;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
+  opacity: 0;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 18px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height:100%;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  color: #fff;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview { 
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 0 1px #fff;
+  display:block;
+  -webkit-box-shadow: 0 0 0 1px #fff;
+  text-align: center;
+margin: 15px auto;
+}
+#portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+}
