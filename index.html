@@ -11,6 +11,10 @@
     <link href="animate.min.css" rel="stylesheet"> 
     <link href="styles.css" rel="stylesheet">    
 	<link href="font-awesome.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->     
 </head> 
 
 <body id="home">
@@ -25,15 +29,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="https://iamdipify.github.io/nadhifariela.github.io//"><img src= ("logo1.png")></a>
+                    <a class="navbar-brand" href="https://iamdipify.github.io/nadhifariela.github.io//"><img src="logo1.png"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Home</a></li>
-                        <li class="scroll"><a href="#AboutUs">About Us</a></li>
-                        <li class="scroll"><a href="#Design Process">Design Process</a></li>
-						<li class="scroll"><a href="#Product">Product</a></li>                      
+                        <li class="scroll"><a href="#aboutus">About Us</a></li>
+                        <li class="scroll"><a href="#designprocess">Design Process</a></li>
+						<li class="scroll"><a href="#product">Product</a></li>                      
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -60,7 +64,6 @@
 					<p>The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015 as a universal call to action to end poverty, protect the planet, and ensure that by 2030 all people enjoy peace and prosperity. The 17 SDGs are integrated—they recognize that action in one area will affect outcomes in others, and that development must balance social, economic and environmental sustainability. Countries have committed to prioritize progress for those who're furthest behind. The SDGs are designed to end poverty, hunger, AIDS, and discrimination against women and girls. The creativity, knowhow, technology and financial resources from all of society is necessary to achieve the SDGs in every context.
                     <p>Sustainable Development Goal 13 (SDG 13 or Global Goal 13) is about climate action and protecting Life. It is one of 17 Sustainable Development Goals established by the United Nations General Assembly in 2015. The official mission statement of this goal is to "Take urgent action to combat climate change and its impacts". SDG 13 has five targets which are to be achieved by 2030.
 					</p>
-                    </p>
                     <p>The first three targets are "output targets": Strengthen resilience and adaptive capacity to climate-related disasters; integrate climate change measures into policies and planning; build knowledge and capacity to meet climate change. The remaining two targets are "means of achieving" targets: To implement the UN Framework Convention on Climate Change, and to promote mechanisms to raise capacity for planning and management. 
                     </p>
                 </div>
@@ -70,12 +73,12 @@
         </div>
     </section><!--/#hero-text-->
 
-    <section id="AboutUs">
+    <section id="aboutus">
         <div class="container">
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">About Us</h2>
-                <p class="text-center wow">Nokstella is a team contributing to Sustainable Development Goal 13, Climate Action</p>
+                <p class="text-center wow fadeInDown">Nokstella is a team contributing to Sustainable Development Goal 13, Climate Action</p>
             </div>
 
             <div class="row">
@@ -145,29 +148,133 @@
 
 
 
-    <section id="Design Process">
+
+
+
+
+    <section id="designprocess">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Design Process</h2> 
-				<div class="row">
-					<div class="col-sm-6 wow fadeInLeft">
-					<img class="img-responsive" src="1.png">
-                </div>
+                <h2 class="section-title text-center wow fadeInDown">Design Process</h2>
+                
             </div>
-				<img src="1.png">
-				<img src="2.png">
-				<img src="3.png">
-				<img src="4.png">
+
+            <div class="text-center">
+                <ul class="portfolio-filter">
+                    <li><a href="#" data-filter=".designing">Designing</a></li>
+                </ul><!--/#portfolio-filter-->
             </div>
-            
-        </div>
-    </section>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                            Some description..
+                            <a class="preview" href="images/portfolio/01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                            Some description..
+                            <a class="preview" href="images/portfolio/04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
 
 
 
 
 
- <section id="Product">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <section id="product">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Product</h2>
